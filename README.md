@@ -1,5 +1,5 @@
 # weenode
-A wee node for all of us (thanks to @shawnyeager for the name!). Building the cheapest possible bitcoin fullnode (+lightning and other services) on old Android phones.
+A wee node for all of us (thanks to @shawnyeager for the name!). Building the cheapest possible bitcoin fullnode (+lightning and other services) on old Android phones. This project aims to automate most of the setup described [in three blog posts here](https://blog.bitcoinprivacy.net/2019/12/20/news-from-the-cheapnode-project/).
 
 ## How to use
 
