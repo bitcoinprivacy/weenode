@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 apt update && apt upgrade
 termux-setup-storage
+termux-wake-lock
 apt install -y termux-services
 ./install-tor.sh
 ./install-bitcoin.sh
