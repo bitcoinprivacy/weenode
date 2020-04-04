@@ -1,6 +1,6 @@
-#!$PREFIX/bin/sh
+#!/data/data/com.termux/files/usr/bin/sh
 pkg install -y bitcoin
+mv ~/.bitcoin ~/.bitcoin.old
 mkdir ~/storage/external-1/.bitcoin
-ln -s bitcoin.conf storage/external-1/.bitcoin/
-ln -s storage/external-1/.bitcoin ~/
-sv-enable bitcoind
+cp bitcoin.conf ~/storage/external-1/.bitcoin/
+ln -s ~/storage/external-1/.bitcoin ~/
