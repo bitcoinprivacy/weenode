@@ -18,6 +18,10 @@ If you didn't have termux-services installed before you should restart termux no
 sv-enable tor bitcoind lnd
 ```
 
-and they will even be restarted if they somehow terminate or you restart termux. 
+and they will even be restarted if they somehow terminate or you restart termux. You can find the logs under `$LOGDIR/sv`, so you might e.g. do something like:
+
+```
+tail -f $LOGDIR/sv/bitcoind/current
+```
 
 The `bitcoin.conf` file here gives you a pruned node that needs at least a 128GB SD card (high endurance card recommended). Of course you can adapt this to your needs, but this should be good enough to back a lightning node at the moment.
